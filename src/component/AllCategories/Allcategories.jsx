@@ -45,7 +45,7 @@ export default function AllCategories () {
     return (
         <div>
             <div className="all-categories">
-                <span className="LeftSideBar"><b>All categories</b></span>
+                <span className="SideBar-title"><b>All categories</b></span>
                 <CategoryBlock categories={PersonalItems} categoryName="PERSONAL"/>
                 <CategoryBlock categories={TeamItems} categoryName="TEAM"/>
                 <CategoryBlock categories={lunchItems} categoryName="FOOD & DRINK"/>
