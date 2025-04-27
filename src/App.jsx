@@ -1,7 +1,5 @@
 import "./App.css";
 import AllCategories from "./component/AllCategories/Allcategories";
-import "./component/AllCategories/Allcategories.css"
-import "./component/AllCategories/PersonalCategory.css"
 
 function App() {
   return (

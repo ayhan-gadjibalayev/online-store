@@ -14,6 +14,9 @@ import { GiWineGlass } from "react-icons/gi";
 import { FaCalendarDay } from "react-icons/fa";
 import { HiOutlineAcademicCap } from "react-icons/hi2";
 
+import "./Allcategories.css"
+import "./CategoryBlock.css"
+
 export default function AllCategories () {
     
     const PersonalItems = [
@@ -42,7 +45,7 @@ export default function AllCategories () {
     return (
         <div>
             <div className="all-categories">
-                <span style={{ fontSize: 20, marginLeft: 10, marginBottom:50 }}><b>All categories</b></span>
+                <span className="LeftSideBar"><b>All categories</b></span>
                 <CategoryBlock categories={PersonalItems} categoryName="PERSONAL"/>
                 <CategoryBlock categories={TeamItems} categoryName="TEAM"/>
                 <CategoryBlock categories={lunchItems} categoryName="FOOD & DRINK"/>

@@ -5,7 +5,7 @@ export default function CategoryBlock(props) {
 
   return (
     <div className="personal-block">
-      <b style={{margin:10}}>{categoryName}</b>
+      <b className="title">{categoryName}</b>
       {(categories || []).map(({ icon, id, categoryItem }) => (
         <span key={id} className="personal-item">
           {React.cloneElement(icon, { style: { marginRight: 10 } })} {categoryItem}
