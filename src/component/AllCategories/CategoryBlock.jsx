@@ -1,7 +1,5 @@
 import React from "react";
 
-// переименовать компонент в CategoryBlock
-
 export default function CategoryBlock(props) {
   const {categories, categoryName} = props;
 

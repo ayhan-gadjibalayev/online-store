@@ -16,7 +16,7 @@ import { HiOutlineAcademicCap } from "react-icons/hi2";
 
 export default function AllCategories () {
     
-    const person = [
+    const PersonalItems = [
         { icon: <FaRegHeart />, id: 1, categoryItem: "For You" },
         { icon: <PiCake />, id: 2, categoryItem: "Birthdays" },
         { icon: <RiCapsuleLine />, id: 3, categoryItem: "Fell Better" },
@@ -24,17 +24,17 @@ export default function AllCategories () {
         { icon: <PiFlowerLight />, id: 5, categoryItem: "I'm Sorry" },
         { icon: <MdFamilyRestroom />, id: 6, categoryItem: "For the Family" }
       ]
-    const person2 = [
+    const TeamItems = [
         { icon: <PiCirclesThree />, id: 1, categoryItem: "For the Team" },
         { icon: <PiHandWaving />, id: 2, categoryItem: "New Hire Welcome" },
       ]
-    const person3 = [
+    const lunchItems = [
         { icon: <TbCup />, id: 1, categoryItem: "Breakfast, Lunch & Dinner" },
         { icon: <GiCoffeeCup />, id: 2, categoryItem: "Keep 'em ceffeinated" },
         { icon: <TbBabyBottle />, id: 3, categoryItem: "Fine Wines" },
         { icon: <GiWineGlass />, id: 4, categoryItem: "Happy Hour" },
       ]
-    const person4 = [
+    const TimeItems = [
         { icon: <HiOutlineAcademicCap />, id: 1, categoryItem: "Back to school" },
         { icon: <FaCalendarDay/>, id: 2, categoryItem: "Labor Day Weekend" },
       ]
@@ -43,10 +43,10 @@ export default function AllCategories () {
         <div>
             <div className="all-categories">
                 <span style={{ fontSize: 20, marginLeft: 10, marginBottom:50 }}><b>All categories</b></span>
-                <CategoryBlock categories={person} categoryName="PERSONAL"/>
-                <CategoryBlock categories={person2} categoryName="TEAM"/>
-                <CategoryBlock categories={person3} categoryName="FOOD & DRINK"/>
-                <CategoryBlock categories={person4} categoryName="SEASONAL"/>
+                <CategoryBlock categories={PersonalItems} categoryName="PERSONAL"/>
+                <CategoryBlock categories={TeamItems} categoryName="TEAM"/>
+                <CategoryBlock categories={lunchItems} categoryName="FOOD & DRINK"/>
+                <CategoryBlock categories={TimeItems} categoryName="SEASONAL"/>
             </div>
             <div>
             </div>
