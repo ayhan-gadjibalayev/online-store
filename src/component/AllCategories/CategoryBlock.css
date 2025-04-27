@@ -1,5 +1,4 @@
-
-.personal-item {
+.category-item {
     display: flex;
     align-items: center;
     width: 220px;
@@ -13,7 +12,7 @@
     margin: 10px;
 }
 
-.personal-item:hover {
+.category-item:hover {
     width: 250px;
     padding: 10px;
     background-color: #EFFFFF;
@@ -21,7 +20,7 @@
     color: #51B5BD;
 }
 
-.personal-block {
+.category-block {
     display: flex;
     flex-direction: column;
 }

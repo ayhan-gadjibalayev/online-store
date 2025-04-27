@@ -4,10 +4,10 @@ export default function CategoryBlock(props) {
   const {categories, categoryName} = props;
 
   return (
-    <div className="personal-block">
+    <div className="category-block">
       <b className="title">{categoryName}</b>
       {(categories || []).map(({ icon, id, categoryItem }) => (
-        <span key={id} className="personal-item">
+        <span key={id} className="category-item">
           {React.cloneElement(icon)} {categoryItem}
         </span>
       ))}
