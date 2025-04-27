@@ -23,24 +23,6 @@ body {
   flex-direction: column;
 }
 
-.personal-header {
-  margin-top: 25px;
-  display: flex;
-  width: 200px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.personal-center {
-  display: flex;
-  flex-direction: column;
-}
-
-.personal-block {
-  display: flex;
-  flex-direction: column;
-}
-
 .sorts {
   width: 100%;
   background-color: black;
