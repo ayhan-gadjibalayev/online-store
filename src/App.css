@@ -23,23 +23,6 @@ body {
   flex-direction: column;
 }
 
-.personal-item {
-  display: flex;
-  align-items: center;
-  width: 255px;
-  padding: 10px;
-  font-size: 17px;
-  color: grey;
-}
-
-.personal-item:hover {
-  width: 250px;
-  padding: 10px;
-  background-color: #EFFFFF;
-  border-radius: 15px;
-  color: #51B5BD;
-}
-
 .personal-header {
   margin-top: 25px;
   display: flex;
