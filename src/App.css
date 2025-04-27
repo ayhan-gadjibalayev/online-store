@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 }
 
-.personal123 {
+.personal-item {
   display: flex;
   align-items: center;
   width: 255px;
@@ -32,7 +32,7 @@ body {
   color: grey;
 }
 
-.personal123:hover {
+.personal-item:hover {
   width: 250px;
   padding: 10px;
   background-color: #EFFFFF;
