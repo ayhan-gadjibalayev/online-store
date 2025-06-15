@@ -1,9 +1,10 @@
 import "./App.css";
+import AllCategories from "./component/AllCategories/Allcategories";
 
 function App() {
   return (
     <div className="general-div">
-      <div className="all-categories"></div>
+      <AllCategories/>
       <div className="right-block">
         <div className="sorts"></div>
         <div className="best-selling"></div>

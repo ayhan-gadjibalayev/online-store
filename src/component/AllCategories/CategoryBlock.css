@@ -1,0 +1,26 @@
+.category-item {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    color: grey;
+}
+
+.title {
+    margin: 10px;
+}
+
+.category-item:hover {
+    width: 250px;
+    padding: 10px;
+    background-color: #EFFFFF;
+    border-radius: 15px;
+    color: #51B5BD;
+}
+
+.category-block {
+    display: flex;
+    flex-direction: column;
+}
